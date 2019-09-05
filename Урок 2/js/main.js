@@ -52,6 +52,12 @@ class GoodsList {
 }
 
 
+class RemoveItem {}  // Удалить товар
+class AddItem {}     // Добавить товар
+class Checkout {}    // Для оформления заказа
+
+
+
 const list = new GoodsList('.goods-list');
 list.fetchGoods();
 list.render();
